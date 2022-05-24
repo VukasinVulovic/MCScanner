@@ -217,11 +217,7 @@ namespace MCScanner
     internal class Program
     {
         static void Main()
-        {
-            
-
-            return;
-             
+        {  
             MCServerConnection mc = new MCServerConnection("localhost", 25565);
             MCServerConnection.ServerInfo info = mc.Connect();
 
